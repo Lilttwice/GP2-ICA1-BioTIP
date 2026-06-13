@@ -1,0 +1,18 @@
+# R / RStudio
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+.positai
+
+# macOS
+.DS_Store
+.~*
+
+# Large data (download via scripts; GEO raw + processed RDS)
+01_data/
+
+# Optional local-only (classmate reference / screenshots)
+4001.pdf
+4073.docx
+截屏*.png
