@@ -61,7 +61,7 @@
 
 Word：**插入 → 图片 → 选 PDF**（或先导出 PNG 再插）。
 
-Table 3 数字用 `02_modules/.../analysisA_simplified_cts_summary.tsv` 与 B 的 tsv；修正 typo：`1.456` 不是 `l.456`。
+Table 3 数字用 `CODE/.../analysisA_simplified_cts_summary.tsv` 与 B 的 tsv；修正 typo：`1.456` 不是 `l.456`。
 
 ---
 
