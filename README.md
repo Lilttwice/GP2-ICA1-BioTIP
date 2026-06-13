@@ -1,6 +1,6 @@
 # GP2 ICA1 — BioTIP analysis (GSE141259 / GSE87038)
 
-GP2 Data Analysis ICA: BioTIP case study and lung injury scRNA-seq analyses.
+GP2 Data Analysis ICA: BioTIP case study and lung injury scRNA-seq analyses for ZJE Y2 BMI sutdents.
 
 ## Setup
 
@@ -42,5 +42,5 @@ Figures for the report: `figures_for_word/`
 
 ## Report
 
-- Draft structure: `GP2_ICA1_report_skeleton.md`
+- Draft structure: `Your_report_skeleton.md`
 - Manuscript text: `GP2_ICA1_终稿正文.md`
