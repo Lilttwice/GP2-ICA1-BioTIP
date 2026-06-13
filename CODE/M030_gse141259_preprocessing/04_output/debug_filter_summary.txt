@@ -1,0 +1,13 @@
+n_cells_total: 32559
+meta_columns: orig.ident, nCount_RNA, nFeature_RNA, cell_barcode, umap_1, umap_2, identifier, sample_id, time_point, louvain_cluster, cell_type, meta_celltype, percent_mito, n_counts, n_genes
+n_target_lineage: 18215
+summary_meta_n_genes:    Min. 1st Qu.  Median    Mean 3rd Qu.    Max.  |   201.0   462.0   645.0   744.0   918.5  3468.0 
+summary_meta_n_counts:    Min. 1st Qu.  Median    Mean 3rd Qu.    Max.  |   42.13  150.34  178.73  180.32  221.48  273.98 
+summary_meta_percent_mito:     Min.  1st Qu.   Median     Mean  3rd Qu.     Max.  | 0.000000 0.004061 0.008576 0.010212 0.014003 0.098432 
+summary_seurat_nFeature_RNA:    Min. 1st Qu.  Median    Mean 3rd Qu.    Max.  |   201.0   462.0   645.0   744.0   918.5  3468.0 
+summary_seurat_nCount_RNA:    Min. 1st Qu.  Median    Mean 3rd Qu.    Max.  |     227     849    1238    1585    1886    9998 
+pass_lineage: 18215
+pass_meta_filters: 0
+pass_seurat_filters: 19397
+pass_both_meta: 0
+pass_both_seurat: 10381

@@ -1,0 +1,4 @@
+analysis	cts_id	n_genes	observed_delta_ic	permutation_p	best_state
+analysisA	day 5	21	1.10337322422615	0	day 5
+analysisA	day 8	23	0.437334924461512	0.01	day 8
+analysisA	day 9	30	0.55208309646059	0	day 9

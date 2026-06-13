@@ -1,0 +1,9 @@
+module_id: M030_gse141259_preprocessing
+purpose: Build the final locked analysis dataset from GSE141259 for downstream BioTIP analyses.
+input: 01_data/raw/GSE141259/
+method: R preprocessing, cell filtering, normalization, PCA, UMAP, metadata harmonization
+output: final locked dataset, QC figures, processing manifest
+classification: internal tuning plus formal analysis input generation
+expected_result: unique final tuned dataset for Analysis A and B
+gate: manifest locked, hashes recorded, downstream can read unique final dataset
+changes_final_dataset_version: yes

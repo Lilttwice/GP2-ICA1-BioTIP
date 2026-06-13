@@ -13,8 +13,8 @@ GP2 Data Analysis ICA: BioTIP case study and lung injury scRNA-seq analyses.
 Raw GEO files are **not** in this repo. Download locally:
 
 ```r
-source("02_modules/M030_gse141259_preprocessing/03_code/download_gse141259_data.R")
-source("02_modules/M030_gse141259_preprocessing/03_code/preprocess_gse141259.R")
+source("CODE/M030_gse141259_preprocessing/03_code/download_gse141259_data.R")
+source("CODE/M030_gse141259_preprocessing/03_code/preprocess_gse141259.R")
 ```
 
 (`01_data/` is gitignored.)
@@ -29,6 +29,17 @@ source("02_modules/M030_gse141259_preprocessing/03_code/preprocess_gse141259.R")
 | `STEP6B_fix_analysisB_figures.R` | Fix Analysis B outputs |
 
 Figures for the report: `figures_for_word/`
+
+## Module layout (`CODE/`)
+
+| Folder | Purpose |
+|--------|---------|
+| `M010_biotip_case_study` | GSE87038 validation |
+| `M030_gse141259_preprocessing` | Download + preprocess lung data |
+| `M040_analysisA_timepoint_biotip` | Analysis A |
+| `M060_analysisB_cellstate_biotip` | Analysis B |
+| `M070_compare_and_comment` | Compare A/B |
+| `M080_report_assembly` | Report figures/tables |
 
 ## Report
 

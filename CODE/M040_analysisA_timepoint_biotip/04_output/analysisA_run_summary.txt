@@ -1,0 +1,12 @@
+run_id: 20260511T104909Z
+n_cells: 10381
+n_genes: 24051
+states: d14_PBS, day 10, day 11, day 12, day 13, day 15, day 2, day 21, day 28, day 3, day 36, day 4, day 5, day 54, day 6, day 7, day 8, day 9
+state_sizes: d14_PBS=696, day 10=297, day 11=297, day 12=380, day 13=445, day 15=850, day 2=317, day 21=304, day 28=2, day 3=609, day 36=286, day 4=1781, day 5=1497, day 54=36, day 6=534, day 7=848, day 8=599, day 9=603
+cutoff: 0.2
+percent: 0.8
+B: 10
+network_fdr: 0.1
+min_size: 50
+n_state_candidate: 4
+ic_simulations: 100

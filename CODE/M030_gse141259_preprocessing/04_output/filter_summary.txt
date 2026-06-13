@@ -1,0 +1,11 @@
+run_id: 20260525T130356Z
+input_cells: 32559
+output_cells: 10381
+retained_fraction: 0.3188
+target_cell_types: AT2, AT2 activated, Krt8+ ADI, AT1, Mki67+ Proliferation
+min_genes: 500
+min_counts: 1000
+max_percent_mito: 20
+n_variable_features: 3000
+time_points_retained: d14_PBS, day 10, day 11, day 12, day 13, day 15, day 2, day 21, day 28, day 3, day 36, day 4, day 5, day 54, day 6, day 7, day 8, day 9
+cell_types_retained: AT1, AT2, AT2 activated, Krt8+ ADI, Mki67+ Proliferation

@@ -1,0 +1,9 @@
+module_id: M050_analysisA_interpretation
+purpose: Interpret Analysis A results and discuss whether the identified tipping signal is reasonable.
+input: M040 outputs and M020 context notes
+method: result synthesis with biological and methodological interpretation
+output: interpretation text, support notes, optional comparison figures
+classification: formal analysis interpretation
+expected_result: balanced explanation for positive or negative results
+gate: claims remain evidence-based and report-ready
+changes_final_dataset_version: no

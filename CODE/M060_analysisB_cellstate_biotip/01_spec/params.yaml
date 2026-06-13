@@ -1,0 +1,17 @@
+project:
+  language: R
+input:
+  dataset_manifest: 01_data/metadata/final_dataset_manifest.yaml
+state_definition: cell_type
+biotip_simplified:
+  min_state_cells: 20
+  max_cells_per_state: 180
+  max_genes: 800
+  preselection_method: optimize.sd_selection
+  cutoff: 0.1
+  percent: 0.8
+  bootstrap_B: 5
+  network_fdr: 0.2
+  min_module_size: 20
+  top_state_candidates: 4
+  permutation_B: 100

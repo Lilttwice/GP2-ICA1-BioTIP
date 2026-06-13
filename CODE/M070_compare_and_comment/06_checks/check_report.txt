@@ -1,0 +1,6 @@
+run_time: 2026-05-11 13:08:48 UTC
+gate_status: pass
+checks:
+- Analysis A and B simplified result tables are present
+- comparison summary generated
+- notes emphasize non-equivalence of time-point and cell-type state definitions

@@ -1,0 +1,5 @@
+Simplified A/B comparison notes
+
+Analysis A uses sampling time point as state and is therefore sensitive to uneven recovery kinetics, small time-point groups, and mixed cell-type composition within each time point.
+Analysis B uses annotated alveolar cell type as state and therefore emphasizes transcriptional differences between AT1, AT2, activated AT2, Krt8+ ADI, and proliferating cells after pooling across time.
+The two analyses are complementary rather than directly interchangeable because their state definitions encode different biological axes.

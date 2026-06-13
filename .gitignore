@@ -8,9 +8,13 @@
 # macOS
 .DS_Store
 .~*
+CODE/.DS_Store
 
 # Large data (download via scripts; GEO raw + processed RDS)
 01_data/
+
+# Regenerable heavy intermediates (keep scripts + tsv/txt/pdf in CODE)
+CODE/**/04_output/*.rds
 
 # Optional local-only (classmate reference / screenshots)
 4001.pdf

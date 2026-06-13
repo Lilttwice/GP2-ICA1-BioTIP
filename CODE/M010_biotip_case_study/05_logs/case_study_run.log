@@ -1,0 +1,10 @@
+run_time: 2026-05-25 23:10:01.97928
+mode: memory_light
+n_clusters: 10
+n_cts: 1
+genes: 1200
+cells: 350
+outputs:
+  fig_case_mci_panels.pdf
+  fig_case_ic_permutation.pdf
+  case_study_cts_summary.tsv

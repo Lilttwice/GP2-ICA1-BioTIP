@@ -1,0 +1,10 @@
+run_id: 20260511T130745Z
+mode: simplified
+states: AT1, AT2, AT2 activated, Krt8+ ADI, Mki67+ Proliferation
+excluded_states: 
+cells_after_sampling: 900
+genes_after_filter: 800
+state_sizes: AT1=180, AT2=180, AT2 activated=180, Krt8+ ADI=180, Mki67+ Proliferation=180
+preselect_B: 5
+network_fdr: 0.2
+min_module_size: 20

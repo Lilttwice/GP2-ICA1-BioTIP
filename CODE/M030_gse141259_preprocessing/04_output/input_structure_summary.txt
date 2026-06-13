@@ -1,0 +1,15 @@
+inspect_time: 2026-05-11 10:38:49 UTC
+highres_barcodes_n: 32559
+highres_genes_n: 24051
+whole_barcodes_n: 29297
+whole_genes_n: 23400
+highres_cellinfo_rows: 32559
+highres_cellinfo_cols: 12
+whole_cellinfo_rows: 29297
+whole_cellinfo_cols: 10
+
+highres_cellinfo_colnames:
+cell_barcode, umap_1, umap_2, identifier, sample_id, time_point, louvain_cluster, cell_type, meta_celltype, percent_mito, n_counts, n_genes
+
+whole_cellinfo_colnames:
+V1, nGene, nUMI, orig.ident, identifier, res.2, grouping, cell.type, metacelltype, spline_cluster

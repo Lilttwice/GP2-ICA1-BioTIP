@@ -106,7 +106,7 @@
 
 ### Supplementary（终稿末尾，不计字数）
 
-> Key scripts: `02_modules/M010.../run_gse87038_case_study_simplified.R`, `M030/preprocess_gse141259.R`, `STEP6_run_lung_AB_figures.R`, `STEP6B_fix_analysisB_figures.R`.
+> Key scripts: `CODE/M010.../run_gse87038_case_study_simplified.R`, `M030/preprocess_gse141259.R`, `STEP6_run_lung_AB_figures.R`, `STEP6B_fix_analysisB_figures.R`.
 
 ---
 

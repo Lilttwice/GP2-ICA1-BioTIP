@@ -1,0 +1,129 @@
+top_class: list
+top_length: 18
+top_names: d14_PBS, day 10, day 11, day 12, day 13, day 15, day 2, day 21, day 28, day 3, day 36, day 4, day 5, day 54, day 6, day 7, day 8, day 9
+
+name: d14_PBS
+class: communities
+typeof: list
+names: merges, modularity, membership, names, vcount, algorithm
+dim: <none>
+length: 6
+
+name: day 10
+class: communities
+typeof: list
+names: merges, modularity, membership, names, vcount, algorithm
+dim: <none>
+length: 6
+
+name: day 11
+class: communities
+typeof: list
+names: merges, modularity, membership, names, vcount, algorithm
+dim: <none>
+length: 6
+
+name: day 12
+class: communities
+typeof: list
+names: merges, modularity, membership, names, vcount, algorithm
+dim: <none>
+length: 6
+
+name: day 13
+class: communities
+typeof: list
+names: merges, modularity, membership, names, vcount, algorithm
+dim: <none>
+length: 6
+
+name: day 15
+class: communities
+typeof: list
+names: merges, modularity, membership, names, vcount, algorithm
+dim: <none>
+length: 6
+
+name: day 2
+class: communities
+typeof: list
+names: merges, modularity, membership, names, vcount, algorithm
+dim: <none>
+length: 6
+
+name: day 21
+class: communities
+typeof: list
+names: merges, modularity, membership, names, vcount, algorithm
+dim: <none>
+length: 6
+
+name: day 28
+class: logical
+typeof: logical
+names: <not list>
+dim: <none>
+length: 1
+
+name: day 3
+class: communities
+typeof: list
+names: merges, modularity, membership, names, vcount, algorithm
+dim: <none>
+length: 6
+
+name: day 36
+class: communities
+typeof: list
+names: merges, modularity, membership, names, vcount, algorithm
+dim: <none>
+length: 6
+
+name: day 4
+class: communities
+typeof: list
+names: merges, modularity, membership, names, vcount, algorithm
+dim: <none>
+length: 6
+
+name: day 5
+class: communities
+typeof: list
+names: merges, modularity, membership, names, vcount, algorithm
+dim: <none>
+length: 6
+
+name: day 54
+class: communities
+typeof: list
+names: merges, modularity, membership, names, vcount, algorithm
+dim: <none>
+length: 6
+
+name: day 6
+class: communities
+typeof: list
+names: merges, modularity, membership, names, vcount, algorithm
+dim: <none>
+length: 6
+
+name: day 7
+class: communities
+typeof: list
+names: merges, modularity, membership, names, vcount, algorithm
+dim: <none>
+length: 6
+
+name: day 8
+class: communities
+typeof: list
+names: merges, modularity, membership, names, vcount, algorithm
+dim: <none>
+length: 6
+
+name: day 9
+class: communities
+typeof: list
+names: merges, modularity, membership, names, vcount, algorithm
+dim: <none>
+length: 6

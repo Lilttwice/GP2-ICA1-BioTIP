@@ -1,0 +1,9 @@
+module_id: M060_analysisB_cellstate_biotip
+purpose: Run BioTIP pipeline using alveolar cell type cluster identity as state definition.
+input: 01_data/processed/final_tuned_dataset.rds
+method: RTF preselection, network partition, MCI scoring, Ic.shrink with 100 permutations
+output: CTS candidates, tipping point scores, significance summaries, final figures
+classification: formal analysis
+expected_result: generate results directly comparable to Analysis A with a different state definition
+gate: complete outputs and significance assessment available
+changes_final_dataset_version: no

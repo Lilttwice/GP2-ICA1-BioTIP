@@ -1,0 +1,9 @@
+module_id: M020_strunz_context_review
+purpose: Summarize the biological context of AT2 differentiation following injury based on Strunz et al. 2020.
+input: 01_data/raw/literature/
+method: targeted paper reading and note extraction
+output: context summary, terminology mapping, citation notes
+classification: formal analysis support
+expected_result: produce accurate context for introduction and result interpretation
+gate: summary consistent with source paper and report needs
+changes_final_dataset_version: no

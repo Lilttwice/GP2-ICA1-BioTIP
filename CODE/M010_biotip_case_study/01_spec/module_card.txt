@@ -1,0 +1,9 @@
+module_id: M010_biotip_case_study
+purpose: Briefly reproduce a successful BioTIP case using the mouse gastrulation scRNA-seq tutorial dataset.
+input: 01_data/raw/GSE87038/
+method: R + BioTIP tutorial reproduction and figure extraction
+output: case study summary, 1-2 final figures, logs
+classification: formal analysis support
+expected_result: obtain concise evidence that BioTIP can detect a biologically meaningful transition signal
+gate: output reproducible and suitable for final report
+changes_final_dataset_version: no

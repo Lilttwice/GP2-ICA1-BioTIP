@@ -1,0 +1,7 @@
+run_id: 20260511T104310Z
+gate_status: pass
+checks:
+- high-resolution dataset selected because time_point and cell_type are both available
+- final dataset saved to a unique locked path
+- manifest updated with md5 hash
+- downstream modules should read the manifest-locked rds file only

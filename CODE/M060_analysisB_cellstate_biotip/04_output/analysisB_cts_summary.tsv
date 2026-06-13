@@ -1,0 +1,4 @@
+analysis	cts_id	n_genes	observed_delta_ic	permutation_p	best_state
+analysisB	Krt8+ ADI	11	2.60538254981455	0.01	Krt8+ ADI
+analysisB	AT1	11	1.17761049570268	0.04	Mki67+ Proliferation
+analysisB	Mki67+ Proliferation	22	0.998143522289593	0	Mki67+ Proliferation

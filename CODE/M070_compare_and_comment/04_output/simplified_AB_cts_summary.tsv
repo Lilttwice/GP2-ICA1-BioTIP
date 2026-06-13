@@ -1,0 +1,6 @@
+analysis	cts_id	n_genes	observed_delta_ic	permutation_p	best_state
+A_time_point	day 6	20	1.45562277331614	0.01	day 6
+A_time_point	day 9	28	0.960655012899345	0	day 9
+A_time_point	day 7	30	0.0694505647977942	0.34	day 7
+A_time_point	day 8	20	0.315251547929457	0.04	day 10
+B_cell_type	Mki67+ Proliferation	31	0.855756340376258	0	Mki67+ Proliferation

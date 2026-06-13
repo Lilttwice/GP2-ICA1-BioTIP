@@ -23,11 +23,11 @@ for (p in need_bioc) {
   }
 }
 
-source("02_modules/M010_biotip_case_study/03_code/run_gse87038_case_study_simplified.R")
+source("CODE/M010_biotip_case_study/03_code/run_gse87038_case_study_simplified.R")
 
 cat("\n=== Step 4 done if you see fig_case_*.pdf below ===\n")
 list.files(
-  "02_modules/M010_biotip_case_study/04_output",
+  "CODE/M010_biotip_case_study/04_output",
   pattern = "fig_case|case_study",
   full.names = TRUE
 )

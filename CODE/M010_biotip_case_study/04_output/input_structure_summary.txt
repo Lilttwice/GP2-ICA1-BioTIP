@@ -1,0 +1,16 @@
+inspect_time: 2026-05-11 10:48:46 UTC
+cellinfo_rows: 1916
+cellinfo_cols: 6
+barcode_rows: 105
+barcode_cols: 2
+umi_head_rows: 10
+umi_head_cols: 1917
+
+cellinfo_colnames:
+Cell, Clean_Reads (after QC), Aligned_Reads, Mapping_Ratio, Gene_Numer, Transcripts
+
+barcode_colnames:
+Primer name, Sequence
+
+umi_colnames_first_20:
+Gene, forebrain_E9.5_embryo1_sc1, forebrain_E9.5_embryo1_sc10, forebrain_E9.5_embryo1_sc11, forebrain_E9.5_embryo1_sc12, forebrain_E9.5_embryo1_sc13, forebrain_E9.5_embryo1_sc14, forebrain_E9.5_embryo1_sc15, forebrain_E9.5_embryo1_sc16, forebrain_E9.5_embryo1_sc17, forebrain_E9.5_embryo1_sc18, forebrain_E9.5_embryo1_sc19, forebrain_E9.5_embryo1_sc2, forebrain_E9.5_embryo1_sc20, forebrain_E9.5_embryo1_sc21, forebrain_E9.5_embryo1_sc22, forebrain_E9.5_embryo1_sc24, forebrain_E9.5_embryo1_sc25, forebrain_E9.5_embryo1_sc26, forebrain_E9.5_embryo1_sc27

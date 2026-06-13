@@ -1,0 +1,9 @@
+module_id: M040_analysisA_timepoint_biotip
+purpose: Run BioTIP pipeline using time point as state definition.
+input: 01_data/processed/final_tuned_dataset.rds
+method: RTF preselection, network partition, MCI scoring, Ic.shrink with 100 permutations
+output: CTS candidates, tipping point scores, significance summaries, final figures
+classification: formal analysis
+expected_result: identify or reject tipping states with traceable evidence
+gate: complete outputs and significance assessment available
+changes_final_dataset_version: no

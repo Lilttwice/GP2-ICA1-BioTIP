@@ -184,7 +184,7 @@ BioTIP relies on state definitions supplied by the analyst, and both time points
 
 ## Supplementary materials
 
-Key R scripts are available in the project repository (`GP2 ICA1 5.22`): `02_modules/M010_biotip_case_study/03_code/run_gse87038_case_study_simplified.R`, `02_modules/M030_gse141259_preprocessing/03_code/preprocess_gse141259.R`, `STEP6_run_lung_AB_figures.R` and `STEP6B_fix_analysisB_figures.R`. Session information: R 4.5.2; BioTIP 1.23.0; Seurat 5.5.0; GEOquery 2.78.0.
+Key R scripts are available in the project repository (`GP2 ICA1 5.22`): `CODE/M010_biotip_case_study/03_code/run_gse87038_case_study_simplified.R`, `CODE/M030_gse141259_preprocessing/03_code/preprocess_gse141259.R`, `STEP6_run_lung_AB_figures.R` and `STEP6B_fix_analysisB_figures.R`. Session information: R 4.5.2; BioTIP 1.23.0; Seurat 5.5.0; GEOquery 2.78.0.
 
 ---
 

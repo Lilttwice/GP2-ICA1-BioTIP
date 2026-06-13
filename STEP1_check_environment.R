@@ -13,8 +13,7 @@ check_path <- function(label, path) {
 }
 
 cat("--- Folder names (scripts expect these) ---\n")
-check_path("02_modules folder", "02_modules")
-check_path("02_modules 2 folder (rename if only this exists)", "02_modules 2")
+check_path("CODE folder", "CODE")
 cat("\n")
 
 cat("--- Data files (required for figures later) ---\n")
@@ -24,8 +23,8 @@ check_path("Processed Seurat object", "01_data/processed/final_tuned_dataset.rds
 cat("\n")
 
 cat("--- Existing analysis outputs (from earlier runs) ---\n")
-check_path("Analysis A CTS summary", "02_modules/M040_analysisA_timepoint_biotip/04_output/analysisA_simplified_cts_summary.tsv")
-check_path("Analysis B CTS summary", "02_modules/M060_analysisB_cellstate_biotip/04_output/analysisB_simplified_cts_summary.tsv")
+check_path("Analysis A CTS summary", "CODE/M040_analysisA_timepoint_biotip/04_output/analysisA_simplified_cts_summary.tsv")
+check_path("Analysis B CTS summary", "CODE/M060_analysisB_cellstate_biotip/04_output/analysisB_simplified_cts_summary.tsv")
 cat("\n")
 
 cat("--- R packages ---\n")

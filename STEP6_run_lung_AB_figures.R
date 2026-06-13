@@ -175,18 +175,18 @@ plot_mci_celltype <- function(membersL, outfile) {
 }
 
 message("=== Analysis A (time point) ===")
-resA <- run_biotip_AB("time_point", "analysisA", "02_modules/M040_analysisA_timepoint_biotip")
+resA <- run_biotip_AB("time_point", "analysisA", "CODE/M040_analysisA_timepoint_biotip")
 rm(resA)
 gc()
 
 message("=== Analysis B (cell type) ===")
-resB <- run_biotip_AB("cell_type", "analysisB", "02_modules/M060_analysisB_cellstate_biotip")
+resB <- run_biotip_AB("cell_type", "analysisB", "CODE/M060_analysisB_cellstate_biotip")
 rm(resB)
 gc()
 
 # --- Export figures ---
-resA_obj <- readRDS("02_modules/M040_analysisA_timepoint_biotip/04_output/analysisA_results.rds")
-resB_obj <- readRDS("02_modules/M060_analysisB_cellstate_biotip/04_output/analysisB_results.rds")
+resA_obj <- readRDS("CODE/M040_analysisA_timepoint_biotip/04_output/analysisA_results.rds")
+resB_obj <- readRDS("CODE/M060_analysisB_cellstate_biotip/04_output/analysisB_results.rds")
 
 ctsA <- names(resA_obj$CTS)[1]
 if (!is.na(ctsA)) {
@@ -222,8 +222,8 @@ if (!is.na(ctsB)) {
 plot_mci_celltype(resB_obj$membersL, file.path(fig_dir, "fig_analysisB_mci.pdf"))
 
 # Update combined CTS bar chart
-cts <- fread("02_modules/M040_analysisA_timepoint_biotip/04_output/analysisA_cts_summary.tsv")
-cts2 <- fread("02_modules/M060_analysisB_cellstate_biotip/04_output/analysisB_cts_summary.tsv")
+cts <- fread("CODE/M040_analysisA_timepoint_biotip/04_output/analysisA_cts_summary.tsv")
+cts2 <- fread("CODE/M060_analysisB_cellstate_biotip/04_output/analysisB_cts_summary.tsv")
 combined <- rbind(cts, cts2, fill = TRUE)
 fwrite(combined, file.path(fig_dir, "combined_AB_cts_summary.tsv"), sep = "\t")
 

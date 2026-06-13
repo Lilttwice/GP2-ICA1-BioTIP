@@ -1,0 +1,9 @@
+fname	url	destfile	status	size
+GSE141259_HighResolution_barcodes.txt.gz	https://ftp.ncbi.nlm.nih.gov/geo/series/GSE141nnn/GSE141259/suppl//GSE141259_HighResolution_barcodes.txt.gz	01_data/raw/GSE141259/GSE141259_HighResolution_barcodes.txt.gz	ok	171842
+GSE141259_HighResolution_cellinfo.csv.gz	https://ftp.ncbi.nlm.nih.gov/geo/series/GSE141nnn/GSE141259/suppl//GSE141259_HighResolution_cellinfo.csv.gz	01_data/raw/GSE141259/GSE141259_HighResolution_cellinfo.csv.gz	ok	1424472
+GSE141259_HighResolution_genes.txt.gz	https://ftp.ncbi.nlm.nih.gov/geo/series/GSE141nnn/GSE141259/suppl//GSE141259_HighResolution_genes.txt.gz	01_data/raw/GSE141259/GSE141259_HighResolution_genes.txt.gz	ok	70000
+GSE141259_HighResolution_rawcounts.mtx.gz	https://ftp.ncbi.nlm.nih.gov/geo/series/GSE141nnn/GSE141259/suppl//GSE141259_HighResolution_rawcounts.mtx.gz	01_data/raw/GSE141259/GSE141259_HighResolution_rawcounts.mtx.gz	failed	28063600
+GSE141259_WholeLung_barcodes.txt.gz	https://ftp.ncbi.nlm.nih.gov/geo/series/GSE141nnn/GSE141259/suppl//GSE141259_WholeLung_barcodes.txt.gz	01_data/raw/GSE141259/GSE141259_WholeLung_barcodes.txt.gz	ok	155204
+GSE141259_WholeLung_cellinfo.csv.gz	https://ftp.ncbi.nlm.nih.gov/geo/series/GSE141nnn/GSE141259/suppl//GSE141259_WholeLung_cellinfo.csv.gz	01_data/raw/GSE141259/GSE141259_WholeLung_cellinfo.csv.gz	ok	383214
+GSE141259_WholeLung_genes.txt.gz	https://ftp.ncbi.nlm.nih.gov/geo/series/GSE141nnn/GSE141259/suppl//GSE141259_WholeLung_genes.txt.gz	01_data/raw/GSE141259/GSE141259_WholeLung_genes.txt.gz	ok	68512
+GSE141259_WholeLung_rawcounts.mtx.gz	https://ftp.ncbi.nlm.nih.gov/geo/series/GSE141nnn/GSE141259/suppl//GSE141259_WholeLung_rawcounts.mtx.gz	01_data/raw/GSE141259/GSE141259_WholeLung_rawcounts.mtx.gz	ok	40864691

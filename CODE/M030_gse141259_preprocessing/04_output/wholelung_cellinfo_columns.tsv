@@ -1,0 +1,11 @@
+dataset	column
+wholelung	V1
+wholelung	nGene
+wholelung	nUMI
+wholelung	orig.ident
+wholelung	identifier
+wholelung	res.2
+wholelung	grouping
+wholelung	cell.type
+wholelung	metacelltype
+wholelung	spline_cluster

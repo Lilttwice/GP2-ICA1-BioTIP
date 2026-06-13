@@ -1,0 +1,28 @@
+project:
+  language: R
+input:
+  dataset_manifest: 01_data/metadata/final_dataset_manifest.yaml
+state_definition: time_point
+biotip:
+  preselection_method: optimize.sd_selection
+  cutoff: 0.2
+  percent: 0.8
+  bootstrap_B: 10
+  network_fdr: 0.1
+  min_module_size: 50
+  top_state_candidates: 4
+  ic_fun: BioTIP
+  ic_sample_target: average
+  permutation_B: 100
+biotip_simplified:
+  min_state_cells: 20
+  max_cells_per_state: 120
+  max_genes: 800
+  preselection_method: optimize.sd_selection
+  cutoff: 0.1
+  percent: 0.8
+  bootstrap_B: 5
+  network_fdr: 0.2
+  min_module_size: 20
+  top_state_candidates: 4
+  permutation_B: 100

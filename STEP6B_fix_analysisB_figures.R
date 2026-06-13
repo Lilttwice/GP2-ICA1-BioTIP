@@ -23,7 +23,7 @@ params_b <- list(
   seed = 20260526
 )
 
-output_dir <- "02_modules/M060_analysisB_cellstate_biotip/04_output"
+output_dir <- "CODE/M060_analysisB_cellstate_biotip/04_output"
 seu <- readRDS("01_data/processed/final_tuned_dataset.rds")
 counts <- as.matrix(GetAssayData(seu, assay = "RNA", layer = "data"))
 state <- as.character(seu$cell_type)
@@ -147,7 +147,7 @@ p3 <- ggplot(dt_mci, aes(module, mci, fill = state)) +
   labs(title = "Analysis B — MCI modules per cell type", x = "Module", y = "MCI")
 ggsave(file.path(fig_dir, "fig_analysisB_mci.pdf"), p3, width = 9, height = 4.5, device = cairo_pdf)
 
-ctsA <- fread("02_modules/M040_analysisA_timepoint_biotip/04_output/analysisA_cts_summary.tsv")
+ctsA <- fread("CODE/M040_analysisA_timepoint_biotip/04_output/analysisA_cts_summary.tsv")
 combined <- rbind(ctsA, perm_summary, fill = TRUE)
 fwrite(combined, file.path(fig_dir, "combined_AB_cts_summary.tsv"), sep = "\t")
 combined[, label := fifelse(analysis == "analysisA", paste0("A: ", cts_id), paste0("B: ", cts_id))]

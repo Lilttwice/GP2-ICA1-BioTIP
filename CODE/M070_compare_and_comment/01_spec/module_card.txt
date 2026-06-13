@@ -1,0 +1,9 @@
+module_id: M070_compare_and_comment
+purpose: Compare Analysis A and B and provide a concise comment on BioTIP strengths and weaknesses.
+input: M040 outputs, M060 outputs, M020 context notes
+method: side-by-side comparison and critical interpretation
+output: comparison table, comment text, report-ready summary
+classification: formal analysis interpretation
+expected_result: answer comparability question and assess method boundaries
+gate: comparison grounded in actual outputs and literature context
+changes_final_dataset_version: no

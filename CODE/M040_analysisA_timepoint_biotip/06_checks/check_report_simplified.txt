@@ -1,0 +1,6 @@
+run_id: 20260511T130522Z
+gate_status: pass
+checks:
+- simplified Analysis A completed using manifest-locked dataset
+- states with fewer than 20 cells excluded
+- 100 gene-permutation simulations completed for CTS delta Ic

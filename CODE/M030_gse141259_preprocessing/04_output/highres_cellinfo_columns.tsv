@@ -1,0 +1,13 @@
+dataset	column
+highres	cell_barcode
+highres	umap_1
+highres	umap_2
+highres	identifier
+highres	sample_id
+highres	time_point
+highres	louvain_cluster
+highres	cell_type
+highres	meta_celltype
+highres	percent_mito
+highres	n_counts
+highres	n_genes

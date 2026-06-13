@@ -1,0 +1,52 @@
+FUNCTION optimize.sd_selection
+function (df, samplesL, B = 100, percent = 0.8, times = 0.8, 
+    cutoff = 0.01, method = c("other", "reference", "previous", 
+        "itself", "longitudinal reference"), control_df = NULL, 
+    control_samplesL = NULL, n_cores = 3, doParallel = TRUE) 
+NULL
+
+FUNCTION getNetwork
+function (optimal, fdr = 0.05) 
+NULL
+
+FUNCTION getCluster_methods
+function (igraphL, method = c("rw", "hcm", "km", "pam", "natural"), 
+    cutoff = NULL) 
+NULL
+
+FUNCTION getMCI
+function (groups, countsL, adjust.size = FALSE, fun = c("cor", 
+    "BioTIP"), df = NULL) 
+NULL
+
+FUNCTION getTopMCI
+function (modulesL, MCI1, membersL, min, n = 1) 
+NULL
+
+FUNCTION getMaxMCImember
+function (membersL, MCIl, minsize = 1, n = 1) 
+NULL
+
+FUNCTION getMaxStats
+function (membersL, idx) 
+NULL
+
+FUNCTION getCTS
+function (maxMCI, maxMCIms) 
+NULL
+
+FUNCTION getIc
+function (counts, sampleL, genes, output = c("Ic", "PCCg", "PCCs"), 
+    fun = c("cor", "BioTIP"), shrink = TRUE, use = c("everything", 
+        "all.obs", "complete.obs", "na.or.complete", "pairwise.complete.obs"), 
+    PCC_sample.target = 1) 
+NULL
+
+FUNCTION simulation_Ic
+function (obs.x, sampleL, counts, B = 1000, fun = c("cor", "BioTIP"), 
+    shrink = TRUE, use = c("everything", "all.obs", "complete.obs", 
+        "na.or.complete", "pairwise.complete.obs"), output = c("Ic", 
+        "PCCg", "PCCs"), PCC_sample.target = 1, n_cores = 3, 
+    doParallel = TRUE) 
+NULL
+

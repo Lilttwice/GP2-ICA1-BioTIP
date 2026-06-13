@@ -1,0 +1,31 @@
+project:
+  language: R
+  r_version_expected: "4.5.x"
+environment:
+  installer: BiocManager
+  cran_mirror: https://cloud.r-project.org
+packages:
+  cran:
+    - BiocManager
+    - Seurat
+  bioc:
+    - BioTIP
+    - GEOquery
+preprocessing:
+  retain_focus: alveolar_lineage_related_cells
+  dataset_selected: HighResolution
+  retained_cell_types:
+    - AT2
+    - AT2 activated
+    - Krt8+ ADI
+    - AT1
+    - Mki67+ Proliferation
+  normalization: LogNormalize
+  variable_feature_method: vst
+  variable_features: 3000
+  pca_dims: 20
+  umap_dims: 20
+  qc_thresholds:
+    min_features: 500
+    min_counts: 1000
+    max_mito_pct: 20

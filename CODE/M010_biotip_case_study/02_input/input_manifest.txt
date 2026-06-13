@@ -1,0 +1,5 @@
+module_id: M010_biotip_case_study
+input_status: pending_download
+expected_inputs:
+  - 01_data/raw/GSE87038/
+upstream_note: GEO supplementary files for the BioTIP successful case study

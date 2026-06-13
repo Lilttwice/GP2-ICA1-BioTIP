@@ -1,0 +1,9 @@
+run_time: 2026-05-11
+gate_status: pass
+checks:
+- final TEX report compiled successfully with XeLaTeX and BibTeX
+- final PDF exists at 03_reports/manuscript/build/main.pdf
+- no forbidden process-management terms found in report source
+- no solid black bullet symbols found in report source
+- report uses distributed section/table/figure structure
+- figures and booktabs-style tables are included in the final report

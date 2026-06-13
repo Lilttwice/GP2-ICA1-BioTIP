@@ -1,0 +1,6 @@
+run_id: 20260511T104310Z
+input_cells: 32559
+output_cells: 10381
+n_unique_time_points: 18
+n_unique_cell_types: 5
+dq_status: pass_with_documented_filters

@@ -1,0 +1,9 @@
+module_id: M080_report_assembly
+purpose: Assemble the unique final English TEX/PDF report using final locked outputs only.
+input: final outputs from M010-M070
+method: TEX authoring, consistency checks, PDF build verification
+output: main.tex and build/main.pdf
+classification: report assembly
+expected_result: concise report with consistent numbers and no internal process disclosure
+gate: final report passes all delivery checks
+changes_final_dataset_version: no

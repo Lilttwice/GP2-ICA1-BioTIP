@@ -1,0 +1,12 @@
+project:
+  language: R
+dataset:
+  accession: GSE87038
+  retrieval: GEO supplementary files
+packages:
+  - GEOquery
+  - readxl
+  - BioTIP
+outputs:
+  max_figures: 2
+  max_text_words: 500

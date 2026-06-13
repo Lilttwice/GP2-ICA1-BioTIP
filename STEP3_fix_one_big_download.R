@@ -30,4 +30,4 @@ if (size != expected) {
 con <- gzfile(destfile, open = "rb")
 readBin(con, "raw", n = 1)
 close(con)
-message("Gzip OK. Now run: source('02_modules/M030_gse141259_preprocessing/03_code/preprocess_gse141259.R')")
+message("Gzip OK. Now run: source('CODE/M030_gse141259_preprocessing/03_code/preprocess_gse141259.R')")

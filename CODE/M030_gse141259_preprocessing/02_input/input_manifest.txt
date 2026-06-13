@@ -1,0 +1,6 @@
+module_id: M030_gse141259_preprocessing
+input_status: pending_download
+expected_inputs:
+  - 01_data/raw/GSE141259/
+  - 01_data/raw/literature/
+upstream_note: external GEO and publication resources

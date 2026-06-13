@@ -1,0 +1,91 @@
+time_point	cell_type	n_cells
+d14_PBS	AT1	12
+day 10	AT1	26
+day 11	AT1	47
+day 12	AT1	48
+day 13	AT1	75
+day 15	AT1	85
+day 2	AT1	0
+day 21	AT1	32
+day 28	AT1	0
+day 3	AT1	6
+day 36	AT1	20
+day 4	AT1	3
+day 5	AT1	23
+day 54	AT1	1
+day 6	AT1	11
+day 7	AT1	29
+day 8	AT1	45
+day 9	AT1	46
+d14_PBS	AT2	662
+day 10	AT2	79
+day 11	AT2	76
+day 12	AT2	156
+day 13	AT2	118
+day 15	AT2	461
+day 2	AT2	111
+day 21	AT2	131
+day 28	AT2	2
+day 3	AT2	114
+day 36	AT2	253
+day 4	AT2	195
+day 5	AT2	212
+day 54	AT2	35
+day 6	AT2	112
+day 7	AT2	171
+day 8	AT2	97
+day 9	AT2	124
+d14_PBS	AT2 activated	2
+day 10	AT2 activated	79
+day 11	AT2 activated	32
+day 12	AT2 activated	38
+day 13	AT2 activated	44
+day 15	AT2 activated	75
+day 2	AT2 activated	177
+day 21	AT2 activated	37
+day 28	AT2 activated	0
+day 3	AT2 activated	428
+day 36	AT2 activated	9
+day 4	AT2 activated	1344
+day 5	AT2 activated	1009
+day 54	AT2 activated	0
+day 6	AT2 activated	293
+day 7	AT2 activated	397
+day 8	AT2 activated	243
+day 9	AT2 activated	161
+d14_PBS	Krt8+ ADI	2
+day 10	Krt8+ ADI	75
+day 11	Krt8+ ADI	108
+day 12	Krt8+ ADI	91
+day 13	Krt8+ ADI	86
+day 15	Krt8+ ADI	115
+day 2	Krt8+ ADI	28
+day 21	Krt8+ ADI	54
+day 28	Krt8+ ADI	0
+day 3	Krt8+ ADI	51
+day 36	Krt8+ ADI	4
+day 4	Krt8+ ADI	217
+day 5	Krt8+ ADI	219
+day 54	Krt8+ ADI	0
+day 6	Krt8+ ADI	78
+day 7	Krt8+ ADI	188
+day 8	Krt8+ ADI	167
+day 9	Krt8+ ADI	233
+d14_PBS	Mki67+ Proliferation	18
+day 10	Mki67+ Proliferation	38
+day 11	Mki67+ Proliferation	34
+day 12	Mki67+ Proliferation	47
+day 13	Mki67+ Proliferation	122
+day 15	Mki67+ Proliferation	114
+day 2	Mki67+ Proliferation	1
+day 21	Mki67+ Proliferation	50
+day 28	Mki67+ Proliferation	0
+day 3	Mki67+ Proliferation	10
+day 36	Mki67+ Proliferation	0
+day 4	Mki67+ Proliferation	22
+day 5	Mki67+ Proliferation	34
+day 54	Mki67+ Proliferation	0
+day 6	Mki67+ Proliferation	40
+day 7	Mki67+ Proliferation	63
+day 8	Mki67+ Proliferation	47
+day 9	Mki67+ Proliferation	39
